@@ -6,7 +6,16 @@
 - **首创变量**：首次将`FDI质量`指标纳入东亚分析体系  
 - **方法突破**：  
   ```eviews
-  equation Model2.ls growth c fdi_quality tariff labor_skill
+  ln(GDP)=β0​+β1​ln(Manufacturing Export)+β2​ln(High-Tech Export)+β3​ln(FDI)+β4​ln(1+Tariff Rate)+ϵ
+## Dependent variable (Y) :
+- Y=ln⁡(GDP) (logarithmic processing to reduce data scale differences).
+## Independent variable (X) :
+-X1=ln⁡(Manufacturing Export) : Manufacturing exports, expected to have a positive impact on GDP (β1>0).
+-X2=ln⁡(High-Tech Export) : high-tech exports are expected to have a greater impact on GDP (β2>0).
+-X3=ln⁡(FDI) : Foreign direct investment, representing capital inflows and technology spillovers (β3>0)
+-X4=ln⁡(1+Tariff Rate) : trade barrier. Since this value is a percentage, logarithm will be negative if it is less than 1, so -we use ln⁡(1+Tariff Rate), which is expected to have a negative impact on GDP (β4<0).
+-Error term (ϵ) : captures unobserved influencing factors, such as government policies, market conditions, etc.
+
 高质量FDI的效益是普通FDI的2.3倍（β=0.68 vs 0.29）
 高科出口对GDP贡献率达67.4%（p<0.01）
 
