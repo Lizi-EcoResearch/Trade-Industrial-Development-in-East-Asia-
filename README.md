@@ -37,8 +37,11 @@ To investigate how different trade structures and FDI quality affect GDP growth 
 
 ### 📂 Files & Artifacts
 [EastAsia_Trade_RawData.xlsx](https://github.com/user-attachments/files/19683789/EastAsia_Trade_RawData.xlsx) | Panel data (2012–2021), covering China, Japan, Korea, Malaysia, Thailand |
+
 [EastAsia_Trade_Model.zip](https://github.com/user-attachments/files/19683794/EastAsia_Trade_Model.zip) | EViews model file, includes: OLS regression, White test, Granger causality |
-[EastAsia_Trade_Industrial_Development.pdf](https://github.com/user-attachments/files/19683791/EastAsia_Trade_Industrial_Development.pdf) | Full_Paper.pdf	12-page full paper with detailed interpretation|
+
+[Final EPPE3996 LI JIAHUI A190857.pdf](https://github.com/user-attachments/files/20481752/Final.EPPE3996.LI.JIAHUI.A190857.pdf) | Full_Paper.pdf	full paper with detailed interpretation|
+
 [EastAsia_Trade_Regression Summary.xlsx](https://github.com/user-attachments/files/19686949/EastAsia_Trade_Regression.Summary.xlsx) |Regression results visualization|
 
 ---
